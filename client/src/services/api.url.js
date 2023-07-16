@@ -4,13 +4,18 @@ export const API_URLS = {
     method: 'POST'
   },
   getEmailFromType: {
-    endpoint: 'Emails',
+    endpoint: 'emails',
     method: 'GET'
   },
   saveDraftEmails: {
     endpoint: 'save-draft',
     method: 'POST'
   },
+  moveEmailsToBin: {
+    endpoint: 'bin',
+    method: 'POST'
+  }
+
 };
 
 // export default API_URLS;
